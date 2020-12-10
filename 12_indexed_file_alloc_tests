@@ -1,0 +1,41 @@
+add one 64
+list
+disk
+exit
+
+add one 63
+list
+disk
+exit
+
+add one 10
+add two 10
+add three 20
+add four 20
+add five 0
+list
+disk
+exit
+
+del one 
+add one 1
+disk
+add two 5
+disk
+del three
+seek three 0
+add three 10
+disk
+seek three 5
+del two
+disk
+del one
+disk
+list
+add four 40
+seek four 1
+seek four 41
+disk
+add five 10
+list
+exit

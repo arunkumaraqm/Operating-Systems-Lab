@@ -1,0 +1,28 @@
+4
+20
+7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+
+Expected:
+7 Miss	7 -1 -1 -1 
+0 Miss	7 0 -1 -1 
+1 Miss	7 0 1 -1 
+2 Miss	7 0 1 2 
+0 Hit	7 0 1 2 
+3 Miss	3 0 1 2 
+0 Hit	3 0 1 2 
+4 Miss	3 4 1 2 
+2 Hit	3 4 1 2 
+3 Hit	3 4 1 2 
+0 Miss	3 4 0 2 
+3 Hit	3 4 0 2 
+2 Hit	3 4 0 2 
+1 Miss	3 4 0 1 
+2 Miss	2 4 0 1 
+0 Hit	2 4 0 1 
+1 Hit	2 4 0 1 
+7 Miss	2 7 0 1 
+0 Hit	2 7 0 1 
+1 Hit	2 7 0 1 
+No. of hits 	= 10
+No. of faults 	= 10
+Fault rate	 	= 50.00 %
